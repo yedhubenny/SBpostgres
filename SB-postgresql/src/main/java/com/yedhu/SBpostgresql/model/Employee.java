@@ -20,9 +20,12 @@ public class Employee {
 	@Column(name="last_name")
 	private String lastName;
 	
-	@Column(name="email")
+	@Column(name="emailname")
 	private String email;
 	
+	
+	@Column(name="yedhu")
+	private int yedhu;
 	
 	
 	public Employee() {
